@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #013914;
+    color: white;
+
+    .container{
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+        .logo{
+            font-size: 32px;
+            font-weight: bold;
+            .text{}
+            .dot{
+                color: #1dbf73
+            }
+        }
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+
+            button{
+                background-color: transparent;
+                color: white;
+                border: 1px solid white;
+                padding: 8px 16px;
+                border-radius: 6px;
+                cursor: pointer;
+                font-family: 'Poppins', sans-serif;
+
+                &:hover{
+                    background-color: #1dbf73;
+                    border-color: #1dbf73;
+                }
+            }
+        }
+    }
+}
