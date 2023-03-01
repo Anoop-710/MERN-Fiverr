@@ -246,14 +246,14 @@ const Gig = () => {
           <p>I will create a unique high quality AI generated image based on a
             description that you give me</p>
           <div className="details">
-          <div className="item">
-              <img src="../src/Assets/img/clock.png" alt="" />
-              <span>2 Days Delivery</span>
-            </div>
             <div className="item">
-              <img src="../src/Assets/img/recycle.png" alt="" />
-              <span>3 Revisions</span>
-            </div>
+                <img src="../src/Assets/img/clock.png" alt="" />
+                <span>2 Days Delivery</span>
+              </div>
+              <div className="item">
+                <img src="../src/Assets/img/recycle.png" alt="" />
+                <span>3 Revisions</span>
+              </div>
           </div>
           <div className="features">
             <div className="item">
