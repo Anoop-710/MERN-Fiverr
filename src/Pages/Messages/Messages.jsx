@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Messages.css";
 import { Link } from "react-router-dom";
 const Messages = () => {
   const message =
